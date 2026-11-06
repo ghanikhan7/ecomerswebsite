@@ -1,0 +1,103 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-ivory: #F8F6F1;
+  --color-deep-black: #171614;
+  --color-champagne-gold: #B69A70;
+  --color-gold-hover: #A0835B;
+  --color-soft-beige: #E8DFD2;
+  --color-beige-subtle: #F3ECE2;
+  --color-border-subtle: rgba(23, 22, 20, 0.08);
+
+  --font-serif: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #171614;
+  background-color: #F8F6F1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background-color: #F8F6F1;
+  color: #171614;
+  overflow-x: hidden;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F8F6F1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D5C9B8;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B69A70;
+}
+
+/* Editorial typography classes */
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Smooth luxury transitions */
+.transition-luxury {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle image zoom on card hover */
+.group:hover .img-zoom {
+  transform: scale(1.04);
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #D5C9B8;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B69A70;
+}
+
+/* Editorial typography classes */
+.font-editorial {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-sans-ui {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Smooth luxury transitions */
+.transition-luxury {
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Subtle image zoom on card hover */
+.group:hover .img-zoom {
+  transform: scale(1.04);
+}

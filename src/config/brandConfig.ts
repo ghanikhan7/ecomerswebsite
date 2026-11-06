@@ -1,0 +1,105 @@
+import type { BrandConfig } from '../types';
+
+export const brandConfig: BrandConfig = {
+  brandName: 'ABAYA ATTIRE OFFICIAL',
+  tagline: 'Haute Modesty & Timeless Elegance',
+  shortName: 'ABAYA ATTIRE',
+  developerCredit: 'Developed with precision by AlisTech',
+  developerWebsite: 'https://alistech.dev',
+  logoText: 'ABAYA ATTIRE',
+  currency: {
+    symbol: '₹',
+    code: 'INR',
+    locale: 'en-IN',
+  },
+  contact: {
+    email: 'concierge@abayaattire.com',
+    phone: '+91 98765 43210',
+    whatsapp: '+91 98765 43210',
+    address: 'Atelier Abaya Attire, Luxury Modest Suite 402, High Street Fashion Enclave, Mumbai & Dubai',
+    hours: 'Monday – Saturday: 10:00 AM – 8:00 PM IST',
+  },
+  social: {
+    instagram: 'https://www.instagram.com/abayaattireofficial/',
+    whatsappUrl: 'https://wa.me/919876543210',
+    pinterest: 'https://pinterest.com/abayaattire',
+  },
+  announcement: {
+    enabled: true,
+    text: 'Complimentary Worldwide Insured Express Delivery on Orders Above ₹5,000 | The Festive 2026 Collection Is Now Live',
+    linkText: 'Explore Lookbook',
+    linkUrl: '/shop?filter=new',
+  },
+  shipping: {
+    freeThreshold: 5000,
+    standardRate: 250,
+    expressRate: 499,
+    estimatedDays: '3–5 Business Days',
+  },
+  taxRatePercentage: 5, // 5% GST on luxury textiles
+  categories: [
+    {
+      id: 'everyday-abayas',
+      name: 'Everyday Abayas',
+      slug: 'everyday-abayas',
+      description: 'Understated silhouettes crafted in breathable, wrinkle-resistant premium crepe for daily sophistication.',
+      heroImage: '/images/collections/everyday-abayas.png',
+    },
+    {
+      id: 'premium-abayas',
+      name: 'Premium Abayas',
+      slug: 'premium-abayas',
+      description: 'Artisanal Dubai Nida and Japanese satin with bespoke drape, hand-finished hems, and gold foil accents.',
+      heroImage: '/images/collections/premium-abayas.png',
+    },
+    {
+      id: 'front-open-abayas',
+      name: 'Front Open Abayas',
+      slug: 'front-open-abayas',
+      description: 'Versatile open-front silhouettes adorned with concealed luxury magnetic clasps and satin inner piping.',
+      heroImage: '/images/collections/front-open-abayas.png',
+    },
+    {
+      id: 'double-shrug-abayas',
+      name: 'Double Shrug Abayas',
+      slug: 'double-shrug-abayas',
+      description: 'Statement layered drama featuring structured inner slips and ethereal chiffon outer capes.',
+      heroImage: '/images/collections/double-shrug-abayas.png',
+    },
+    {
+      id: 'kimono-abayas',
+      name: 'Kimono Abayas',
+      slug: 'kimono-abayas',
+      description: 'Fluid flared sleeves and wide obi-inspired tie belts cut from imported silk crepe.',
+      heroImage: '/images/collections/kimono-abayas.png',
+    },
+    {
+      id: 'kaftans',
+      name: 'Kaftans',
+      slug: 'kaftans',
+      description: 'Regal batwing and Moroccan-inspired cuts with hand-applied crystal stonework and gold zardozi piping.',
+      heroImage: '/images/collections/kaftans.png',
+    },
+    {
+      id: 'khimars',
+      name: 'Khimars',
+      slug: 'khimars',
+      description: 'Full-coverage luxury headpieces in ultra-breathable Medina silk and double-layered georgette.',
+      heroImage: '/images/collections/khimars.png',
+    },
+    {
+      id: 'three-layer-abayas',
+      name: '3 Layer Abayas',
+      slug: 'three-layer-abayas',
+      description: 'Cascading multi-tiered layers creating an ethereal, statuesque silhouette with volume and motion.',
+      heroImage: '/images/collections/three-layer-abayas.png',
+    },
+    {
+      id: 'embroidered-abayas',
+      name: 'Embroidered Abayas',
+      slug: 'embroidered-abayas',
+      description: 'Masterfully hand-embroidered floral arabesques and tone-on-tone French beadwork.',
+      heroImage: '/images/collections/embroidered-abayas.png',
+    },
+  ],
+};
